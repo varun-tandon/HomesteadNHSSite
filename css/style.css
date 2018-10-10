@@ -1,0 +1,253 @@
+@font-face {
+	font-family: futura;
+	src: url('../fonts/futuralight.ttf');
+}
+body{
+	font-family: futura !important;
+}
+
+#navigation .navbar-nav.navbar-right li a {
+
+    font-family: futura;
+
+}
+#nav_logo{
+	height:64px;
+}
+h1, h2, h3, h4, h5, h6, p, a, span{
+	font-family: futura !important;
+}
+.navbar-brand {
+    float: left;
+    padding: 4px 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#navigation .navbar-nav.navbar-right {
+	margin-top:5px;
+}
+
+#navigation .navbar{
+	height:74px;
+	background: rgba(255,255,255,0);
+	  box-shadow: rgba(0, 0, 0, 0) 0px 0px 3px;
+
+	 -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+#navigation .navbar-nav.navbar-right {
+	margin-top: 20px;
+
+}
+
+#navigation .navbar-inverse .navbar-nav  .active  a,
+#navigation .navbar-inverse .navbar-nav  .active  a:focus,
+#navigation .navbar-nav.navbar-right li a:hover {
+	color: #fff;
+	background-color: #0f2644;
+}
+
+#navigation .navbar.scrolled {
+    /*background: rgb(68, 68, 68); //IE*/
+      box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 3px;
+  background:rgba(255, 255, 255, 0.952941);
+}
+
+#navigation .navbar-nav.navbar-right li a{
+	color:#fff;
+}
+
+.scrolledText a{
+	color:#43484E !important;
+}
+
+.active.scrolledText a{
+	color:#fff !important;
+}
+
+.scrolledText a:hover{
+	color:#fff !important;
+}
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.9);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.9);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.login_button{
+	background-color: #0f2644;
+	    border-color: #0f2644;
+
+}
+
+.form-control:focus {
+    border-color: #0f2644;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6)
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary {
+    color: #0f2644;
+    background-color: #fff;
+    border-color:rgba(0,0,0,0);
+}
+
+#forgotPasswordLink{
+	color:#0f2644 !important;
+}
+
+#forgotPasswordLink{
+	color:#0f2644 !important;
+}
+
+#forgotPasswordLink:hover{
+	color:#fff !important;
+}
+
+#forgotPasswordInput{
+	width: 50%;
+	height: 100%;
+	margin-left: 25%;
+	margin-top:10%;
+
+	text-align: center;
+}
+
+#contact-form .name-field,
+#contact-form .mail-field  {
+	width:50%;
+	margin-left: 25%;
+}
+
+#contact-form-section{
+	padding-top: 1%;
+}
+
+
+.title-one:after {
+	color: #0f2644;
+	content: "";
+	position: absolute;
+	right: -40px;
+	top: -2px;
+}
+
+.title-one:before {
+	color: #0f2644;
+	content: "";
+	left: -40px;
+	position: absolute;
+	top: 0;
+}
+
+#contact-form-section .btn-primary {
+	background-color:#0f2644;
+	border-color:#0f2644;
+	border-radius:0;
+	padding:10px 35px;
+	text-transform:uppercase;
+	font-weight:800;
+	transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+#contact-form-section .btn-primary:hover {
+	background-color:#fff;
+	border-color:#fff;
+	border-radius:0;
+	padding:10px 35px;
+	text-transform:uppercase;
+	font-weight:800;
+	transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+
+#contact-form-section .form-control:focus {
+	border-color: #0f2644;
+	outline: 0;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+
+#logoutDropdown{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+color: #43484E;
+background-color: #fff;
+
+}
+.skillbar-bar{
+	background-color:#0f2644;
+}
+.skillbar-title span{
+	background-color: rgba(15, 38, 68, 0);
+}
+.skillbar-title{
+	background-color:rgba(15, 38, 68, 0);
+}
+
+.no-box-shadow{
+	box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px !important;
+}
